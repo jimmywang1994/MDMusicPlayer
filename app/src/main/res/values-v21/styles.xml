@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Base" parent="android:Theme.Material.NoActionBar">
+
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:colorPrimaryDark">@color/material_green_700</item>
+        <item name="android:colorPrimary">@color/material_green_500</item>
+        <item name="android:colorAccent">@color/material_indigo_500</item>
+        <!--<item name="android:navigationBarColor">@color/accent_material_dark</item>-->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.SearchResult" parent="android:Widget.Material.Light.ListView">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.ToolBar" parent="AppTheme">
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
+        <item name="android:background">?android:attr/colorPrimary</item>
+    </style>
+
+</resources>
